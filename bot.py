@@ -3,7 +3,7 @@ import re
 import telebot
 
 from config import Settings
-from chatbot import ChatBotService
+from service import ChatBotService
 
 BOT_TOKEN = Settings.BOT_TOKEN
 
