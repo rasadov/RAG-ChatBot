@@ -2,8 +2,8 @@ import re
 
 import telebot
 
-from config import Settings
-from service import ChatBotService
+from src.config import Settings
+from src.chatbot.service import ChatBotService
 
 BOT_TOKEN = Settings.BOT_TOKEN
 

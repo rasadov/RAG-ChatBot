@@ -1,6 +1,6 @@
 import random
 
-from chatbot import ChatBot
+from src.chatbot.bot import ChatBot
 
 class ChatBotService:
     chatbot: ChatBot = ChatBot()

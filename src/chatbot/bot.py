@@ -1,9 +1,9 @@
 import openai
 import numpy as np
 
-from config import Settings
-from utils.caching import BaseVectorCacher, LocalVectorCacher
-from utils.scraper import BS4Scraper
+from src.config import Settings
+from src.utils.caching import BaseVectorCacher, LocalVectorCacher
+from src.utils.scraper import BS4Scraper
 
 openai.api_key = Settings.OPENAI_API_KEY
 
